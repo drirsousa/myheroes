@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">marvelcharacters</string>
+    <string name="lbl_item_list_toolbar">Personagens Marvel</string>
+    <string name="lbl_item_favorite_list_toolbar">Favoritos</string>
+    <string name="lbl_item_detail_toolbar">Detalhes</string>
+    <string name="lbl_hint_enter_text">Digite algo</string>
+    <string name="lbl_warning">Atenção!</string>
+</resources>

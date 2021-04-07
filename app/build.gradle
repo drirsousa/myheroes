@@ -9,7 +9,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "br.com.rosait.marvelcharacters"
+        applicationId "br.com.rosait.myheroes"
         minSdkVersion 18
         targetSdkVersion 30
         versionCode 1

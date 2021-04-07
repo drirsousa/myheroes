@@ -19,6 +19,16 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toLeftOf="parent">
 
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:paddingTop="12dp"
+                tools:text="Name Hero"
+                style="@style/font_bold_colorblack_26sp"/>
+
             <ImageView
                 android:id="@+id/imvFavorite"
                 android:layout_width="58dp"

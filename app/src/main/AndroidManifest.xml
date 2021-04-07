@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.rosait.marvelcharacters">
+    package="br.com.rosait.myheroes">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -11,17 +11,17 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Marvelcharacters">
-        <activity android:name=".view.MainActivity" android:windowSoftInputMode="stateHidden">
+        android:theme="@style/Theme.Myheroes">
+        <activity android:name=".view.home.main.MainActivity" android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.FavoriteActivity" />
-        <activity android:name=".view.ItemDetailActivity" />
-        <activity android:name=".common.base.BaseActivity" />
+        <activity android:name=".view.home.favorite.FavoriteActivity" />
+        <activity android:name=".view.detail.ItemDetailActivity" />
+        <activity android:name="br.com.rosait.myheroes.common.base.BaseActivity" />
     </application>
 
 </manifest>

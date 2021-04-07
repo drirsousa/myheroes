@@ -100,8 +100,6 @@ class MainActivity : BaseActivity() {
         })
 
         loadFirstTime()
-
-        //mBinding.swipeRefreshLayout.setOnRefreshListener(this::doRefresh)
     }
 
     private fun setupToolbar() {
@@ -121,7 +119,6 @@ class MainActivity : BaseActivity() {
     }
 
     private fun loadNextItems() {
-        //ProgressUtil.showProgressDialog(this)
         mViewModel.getItems(currentOffSet)
     }
 
